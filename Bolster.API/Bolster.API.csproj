@@ -40,9 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Interface\MixedStatuses.cs" />
-    <Compile Include="Interface\StatefulStatuses.cs" />
-    <Compile Include="Interface\StatelessStatuses.cs" />
+    <Compile Include="Interface\Mixed\Status.cs" />
+    <Compile Include="Interface\Stateful\Status.cs" />
+    <Compile Include="Interface\Stateless\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Status\Failures\NullReferenceFailure.cs" />
     <Compile Include="Status\IFailure.cs" />

@@ -5,6 +5,9 @@ namespace Bolster.Base
 {
     public abstract class Either<T, W>
     {
+        protected Either(dynamic value) {
+            Value = value;
+        }
         public dynamic Value { get; set; }
         
         public abstract bool IsLeft { get; }
@@ -42,8 +45,8 @@ namespace Bolster.Base
 
         public override bool IsRight => false;
 
-        public Left(T item) {
-            Value = item;
+        public Left(T item) :base(item) {
+            
         }
 
         public T Return() => ValueAs<T>().Return();
@@ -57,8 +60,8 @@ namespace Bolster.Base
         
         public override bool IsRight => true;
 
-        public Right(W item) {
-            Value = item;
+        public Right(W item) : base(item) {
+            
         }
 
         public W Return() => ValueAs<W>().Return();
