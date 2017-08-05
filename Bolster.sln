@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolster", "Bolster/Bolster.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolster.Base.Theory", "Bolster.Base.Theory\Bolster.Base.Theory.csproj", "{CE60AE9C-45DC-4337-8E71-C6BBBC507E70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bolster.Base", "Bolster.Base\Bolster.Base.csproj", "{7EEB1422-5A7E-4DFD-A042-4767B7BDD9E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CE60AE9C-45DC-4337-8E71-C6BBBC507E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE60AE9C-45DC-4337-8E71-C6BBBC507E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE60AE9C-45DC-4337-8E71-C6BBBC507E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEB1422-5A7E-4DFD-A042-4767B7BDD9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEB1422-5A7E-4DFD-A042-4767B7BDD9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEB1422-5A7E-4DFD-A042-4767B7BDD9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEB1422-5A7E-4DFD-A042-4767B7BDD9E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
