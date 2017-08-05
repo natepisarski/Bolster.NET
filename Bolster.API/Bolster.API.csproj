@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{896AD551-C5AF-4EF5-B15D-097C7E9C96E7}</ProjectGuid>
+    <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bolster.API</RootNamespace>
+    <AssemblyName>Bolster.API</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interface\MixedStatuses.cs" />
+    <Compile Include="Interface\StatefulStatuses.cs" />
+    <Compile Include="Interface\StatelessStatuses.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Status\Failures\NullReferenceFailure.cs" />
+    <Compile Include="Status\IFailure.cs" />
+    <Compile Include="Status\ISuccess.cs" />
+    <Compile Include="Status\Stateful\Failure.cs" />
+    <Compile Include="Status\Stateful\Success.cs" />
+    <Compile Include="Status\Stateless\Failure.cs" />
+    <Compile Include="Status\Stateless\Success.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bolster.Base.Theory\Bolster.Base.Theory.csproj">
+      <Project>{ce60ae9c-45dc-4337-8e71-c6bbbc507e70}</Project>
+      <Name>Bolster.Base.Theory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Base\Bolster.Base.csproj">
+      <Project>{7eeb1422-5a7e-4dfd-a042-4767b7bdd9e6}</Project>
+      <Name>Bolster.Base</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
