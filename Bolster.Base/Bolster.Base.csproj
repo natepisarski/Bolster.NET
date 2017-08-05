@@ -39,8 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Option.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Maybe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bolster.Base.Theory\Bolster.Base.Theory.csproj">
+      <Project>{ce60ae9c-45dc-4337-8e71-c6bbbc507e70}</Project>
+      <Name>Bolster.Base.Theory</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
