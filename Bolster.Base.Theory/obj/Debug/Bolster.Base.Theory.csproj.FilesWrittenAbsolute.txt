@@ -1,3 +1,5 @@
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/bin/Debug/Bolster.Base.Theory.dll.mdb
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/bin/Debug/Bolster.Base.Theory.dll
+/home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/Bolster.Base.Theory.dll
+/home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/Bolster.Base.Theory.dll.mdb

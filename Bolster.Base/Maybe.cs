@@ -19,6 +19,10 @@ namespace Bolster.Base
 
     public class Just<T> : Maybe<T>
     {
+        public override bool HasValue => true;
+
+        public override bool HasError => false;
+        
         public Just(T value)
         {
             Value = value;
@@ -28,16 +32,18 @@ namespace Bolster.Base
         {
             return Value;
         }
-
-        public override bool HasValue => true;
-
-        public override bool HasError => false;
     }
 
     public class None<T> : Maybe<T>
     {
+        public override bool HasValue => false;
+        
+        public override bool HasError => Error == null;
+        
         public Exception Error { get; }
 
+        public None() { }
+        
         public None(Exception exception)
         {
             Error = exception;
@@ -53,7 +59,6 @@ namespace Bolster.Base
             }
         }
 
-        public override bool HasValue { get; }
-        public override bool HasError { get; }
+        
     }
 }
