@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2578998-48de-43fd-9759-529bce3a1a41" name="Default" comment="" />
+    <list default="true" id="d2578998-48de-43fd-9759-529bce3a1a41" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Bolster/.idea/contentModel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Bolster/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Bolster/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Bolster/riderModule.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.Base.Theory/Bolster.Base.Theory.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.Base.Theory/IEndoFunctor.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.Base.Theory/IFunctor.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.Base.Theory/IMonad.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.Base.Theory/Properties/AssemblyInfo.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster.sln" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster/Bolster.csproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bolster/Properties/AssemblyInfo.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Planning.md" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +51,8 @@
       <file leaf-file-name="IEndoFunctor.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Bolster.Base.Theory/IEndoFunctor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="126">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
               <folding>
                 <marker date="1501893095772" expanded="true" signature="44:408" ph="{...}" />
                 <marker date="1501893095772" expanded="true" signature="51:302" ph="/// An EndoFunctor is a functor from one category back into the same category. In the context of the C##  ... " />
@@ -52,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/Bolster.Base.Theory/IMonad.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <marker date="1501893095780" expanded="true" signature="29:1100" ph="{...}" />
                 <marker date="1501893095780" expanded="true" signature="36:335" ph="/// IMonad does not truly follow the monadic laws. Due to restriction's of C##'s type system regarding Kinds, ... " />
@@ -79,6 +93,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Bolster.Base.Theory/IEndoFunctor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -107,6 +124,7 @@
     <option name="width" value="1544" />
     <option name="height" value="818" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <flattenPackages />
@@ -264,12 +282,12 @@
       <option name="presentableId" value="Default" />
       <updated>1501816654673</updated>
       <workItem from="1501816657919" duration="462000" />
-      <workItem from="1501892054677" duration="1041000" />
+      <workItem from="1501892054677" duration="1110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1503000" />
+    <option name="totallyTimeSpent" value="1572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -289,10 +307,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15019506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -337,7 +356,7 @@
     <entry file="file://$PROJECT_DIR$/Bolster.Base.Theory/IMonad.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding>
             <marker date="1501893095780" expanded="true" signature="29:1100" ph="{...}" />
             <marker date="1501893095780" expanded="true" signature="36:335" ph="/// IMonad does not truly follow the monadic laws. Due to restriction's of C##'s type system regarding Kinds, ... " />
@@ -362,8 +381,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bolster.Base.Theory/IEndoFunctor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="126">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <marker date="1501893095772" expanded="true" signature="44:408" ph="{...}" />
             <marker date="1501893095772" expanded="true" signature="51:302" ph="/// An EndoFunctor is a functor from one category back into the same category. In the context of the C##  ... " />
