@@ -38,7 +38,7 @@ namespace Bolster.Base
     {
         public override bool HasValue => false;
         
-        public override bool HasError => Error == null;
+        public override bool HasError => Error != null;
         
         public Exception Error { get; }
 

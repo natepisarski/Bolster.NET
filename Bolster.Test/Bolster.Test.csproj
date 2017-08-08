@@ -26,24 +26,47 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
-     <Optimize>true</Optimize>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
     <Reference Include="nunit.framework, Version=3.5.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb">
       <HintPath>..\packages\NUnit.3.5.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestMaybeType.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bolster.API\Bolster.API.csproj">
+      <Project>{896ad551-c5af-4ef5-b15d-097c7e9c96e7}</Project>
+      <Name>Bolster.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Base.Theory\Bolster.Base.Theory.csproj">
+      <Project>{ce60ae9c-45dc-4337-8e71-c6bbbc507e70}</Project>
+      <Name>Bolster.Base.Theory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Base\Bolster.Base.csproj">
+      <Project>{7eeb1422-5a7e-4dfd-a042-4767b7bdd9e6}</Project>
+      <Name>Bolster.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Static\Bolster.Static.csproj">
+      <Project>{76e9e6bc-4345-436c-bd6b-b50a1f60d3fe}</Project>
+      <Name>Bolster.Static</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Utility\Bolster.Utility.csproj">
+      <Project>{37dad600-eb9e-41ec-a321-46f217326bd6}</Project>
+      <Name>Bolster.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -53,5 +76,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>
