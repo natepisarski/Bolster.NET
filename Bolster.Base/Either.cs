@@ -20,11 +20,15 @@ namespace Bolster.Base
         
         public bool Is<X>() {
             if (IsLeft) {
-                return typeof(X) is T;
+                var leftType = typeof(T);
+                var isType = typeof(X) == leftType || typeof(X).IsSubclassOf(leftType);
+                return isType;
             }
 
             if (IsRight) {
-                return typeof(X) is W;
+                var rightType = typeof(W);
+                var isType = typeof(X) == rightType || typeof(X).IsSubclassOf(rightType);
+                return isType;
             }
             
             throw new Exception(Constants.TypeNotDeclaredLeftOrRightExceptionMessage);
@@ -34,7 +38,7 @@ namespace Bolster.Base
             if (Is<X>()) {
                 return new Just<X>(Value);
             }
-            return new None<X>(Value);
+            return new None<X>(new Exception(Constants.ValueAsProvidesIncorrectType));
         }
     }
 

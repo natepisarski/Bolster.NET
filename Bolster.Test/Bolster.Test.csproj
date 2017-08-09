@@ -42,9 +42,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestEitherExplicit.cs" />
     <Compile Include="TestMaybeType.cs" />
     <Compile Include="Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Bolster.API\Bolster.API.csproj">
