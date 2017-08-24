@@ -7,5 +7,8 @@
         public Failure(T state) {
             State = state;
         }
+        
+        public Failure<T> Reason(T state) =>
+            new Failure<T>(state);
     }
 }

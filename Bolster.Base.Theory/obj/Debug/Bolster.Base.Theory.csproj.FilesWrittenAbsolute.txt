@@ -3,3 +3,5 @@
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/bin/Debug/Bolster.Base.Theory.dll
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/Bolster.Base.Theory.dll
 /home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/Bolster.Base.Theory.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Base.Theory/bin/Debug/Bolster.Base.Theory.pdb
+/home/nate/Code/Project/Bolster/Bolster.Base.Theory/obj/Debug/Bolster.Base.Theory.pdb

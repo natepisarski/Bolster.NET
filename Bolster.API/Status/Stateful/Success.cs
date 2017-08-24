@@ -7,5 +7,8 @@
         public Success(T item) {
             State = item;
         }
+        
+        public Success<T> Result(T state)
+            => new Success<T>(state);
     }
 }

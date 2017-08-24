@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{E0E7675D-7139-44EE-862C-B5845FEA8EE2}|Unit Tests">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bolster.Test/TestMaybeType.cs">
+    <Files>
+      <File FileName="Bolster.Test/TestMaybeType.cs" Line="43" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Bolster.Test PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,8 +1,18 @@
-﻿using Bolster.API.Status;
-namespace Bolster.API.Status.Stateless
+﻿namespace Bolster.API.Status.Stateless
 {
-    public class Success : ISuccess
+    public class Success : Result, ISuccess
     {
-        public Success() {}
+        public string Reason { get; }
+        
+        public Success(string successReason = null) {
+            Reason = successReason;
+        }
+        
+        public Success Result(string successReason) =>
+            new Success(successReason);
+
+        public override bool IsSuccess => true;
+        
+        public override bool IsFailure => false;
     }
 }
