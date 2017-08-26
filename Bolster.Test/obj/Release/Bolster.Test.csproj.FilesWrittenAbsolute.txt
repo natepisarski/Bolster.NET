@@ -1,0 +1,16 @@
+/home/nate/Code/Project/Bolster/Bolster.Test/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Test.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Test.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/nunit.framework.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.API.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.API.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Base.Theory.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Base.Theory.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Base.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Base.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Static.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Utility.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/bin/Release/Bolster.Utility.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Test/obj/Release/Bolster.Test.dll
+/home/nate/Code/Project/Bolster/Bolster.Test/obj/Release/Bolster.Test.dll.mdb

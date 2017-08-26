@@ -1,0 +1,6 @@
+/home/nate/Code/Project/Bolster/Bolster.Static/bin/Debug/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster.Static/bin/Debug/Bolster.Static.pdb
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.csproj.CoreCompileInputs.cache
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.pdb
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.csprojResolveAssemblyReference.cache

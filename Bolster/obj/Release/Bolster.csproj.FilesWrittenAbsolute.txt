@@ -1,0 +1,15 @@
+/home/nate/Code/Project/Bolster/Bolster/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.API.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.API.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Base.Theory.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Base.Theory.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Base.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Base.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Static.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Utility.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Release/Bolster.Utility.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster/obj/Release/Bolster.dll
+/home/nate/Code/Project/Bolster/Bolster/obj/Release/Bolster.dll.mdb

@@ -1,0 +1,5 @@
+/home/nate/Code/Project/Bolster/Bolster/bin/Debug/Bolster.dll
+/home/nate/Code/Project/Bolster/Bolster/bin/Debug/Bolster.pdb
+/home/nate/Code/Project/Bolster/Bolster/obj/Debug/Bolster.csproj.CoreCompileInputs.cache
+/home/nate/Code/Project/Bolster/Bolster/obj/Debug/Bolster.dll
+/home/nate/Code/Project/Bolster/Bolster/obj/Debug/Bolster.pdb

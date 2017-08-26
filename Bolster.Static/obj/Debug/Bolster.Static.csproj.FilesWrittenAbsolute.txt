@@ -1,0 +1,7 @@
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/Bolster/Bolster.Static/bin/Debug/Bolster.Static.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Static/bin/Debug/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.dll
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Static/bin/Debug/Bolster.Static.pdb
+/home/nate/Code/Project/Bolster/Bolster.Static/obj/Debug/Bolster.Static.pdb

@@ -1,0 +1,12 @@
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.API.dll
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.API.pdb
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.dll
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.Theory.dll
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.Theory.pdb
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.Theory.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.pdb
+/home/nate/Code/Project/Bolster/Bolster.API/bin/Debug/Bolster.Base.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.API/obj/Debug/Bolster.API.csprojResolveAssemblyReference.cache
+/home/nate/Code/Project/Bolster/Bolster.API/obj/Debug/Bolster.API.csproj.CoreCompileInputs.cache
+/home/nate/Code/Project/Bolster/Bolster.API/obj/Debug/Bolster.API.dll
+/home/nate/Code/Project/Bolster/Bolster.API/obj/Debug/Bolster.API.pdb

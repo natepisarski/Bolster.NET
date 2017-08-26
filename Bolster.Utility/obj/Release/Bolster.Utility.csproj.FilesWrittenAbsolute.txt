@@ -1,0 +1,5 @@
+/home/nate/Code/Project/Bolster/Bolster.Utility/obj/Release/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nate/Code/Project/Bolster/Bolster.Utility/bin/Release/Bolster.Utility.dll.mdb
+/home/nate/Code/Project/Bolster/Bolster.Utility/bin/Release/Bolster.Utility.dll
+/home/nate/Code/Project/Bolster/Bolster.Utility/obj/Release/Bolster.Utility.dll
+/home/nate/Code/Project/Bolster/Bolster.Utility/obj/Release/Bolster.Utility.dll.mdb
