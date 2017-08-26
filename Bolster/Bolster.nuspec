@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Bolster</id>
+    <version>1.0.2</version>
+    <title>Bolster.NET</title>
+    <authors>Nathaniel Pisarski</authors>
+    <owners>Nathaniel Pisarski</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A library for managing program fault-points. Use static types to propagate errors, reduce vulnerable code, and design functional systems</description>
+    <releaseNotes>Initial Released</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Monad Either Maybe Curry Functional API</tags>
+  </metadata>
+</package>

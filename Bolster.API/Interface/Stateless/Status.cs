@@ -9,6 +9,10 @@ namespace Bolster.API.Interface.Stateless
         public static Failure Failure => new Failure();
 
         public static Either<Success, Failure> SuccessfulResult => Either<Success, Failure>.Choose(Success);
-        public static Either<Success, Failure> FailureResult => Either<Success, Failure>.Choose(Failure); 
+        public static Either<Success, Failure> FailureResult => Either<Success, Failure>.Choose(Failure);
+
+        public static Either<Success, Failure> ToStatus(this bool boolean) =>
+            boolean ? Either<Success, Failure>.Choose(new Success()) : Either<Success, Failure>.Choose(new Failure());
+        
     }
 }

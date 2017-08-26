@@ -68,5 +68,6 @@ namespace Bolster.API.Interface.Mixed
         public static bool DidAllFail<T, W>(this IEnumerable<Either<T, W>> actions)
             where T: ISuccess where W : IFailure
             => !actions.Any(status => status.Is<ISuccess>());
+        
     }
 }

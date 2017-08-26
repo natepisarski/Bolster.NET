@@ -46,6 +46,28 @@
       <Link>Planning.md</Link>
     </Content>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bolster.API\Bolster.API.csproj">
+      <Project>{896ad551-c5af-4ef5-b15d-097c7e9c96e7}</Project>
+      <Name>Bolster.API</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Base.Theory\Bolster.Base.Theory.csproj">
+      <Project>{ce60ae9c-45dc-4337-8e71-c6bbbc507e70}</Project>
+      <Name>Bolster.Base.Theory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Base\Bolster.Base.csproj">
+      <Project>{7eeb1422-5a7e-4dfd-a042-4767b7bdd9e6}</Project>
+      <Name>Bolster.Base</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Static\Bolster.Static.csproj">
+      <Project>{76e9e6bc-4345-436c-bd6b-b50a1f60d3fe}</Project>
+      <Name>Bolster.Static</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Bolster.Utility\Bolster.Utility.csproj">
+      <Project>{37dad600-eb9e-41ec-a321-46f217326bd6}</Project>
+      <Name>Bolster.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
