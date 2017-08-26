@@ -17,7 +17,7 @@ namespace Bolster.Base.Interface
             }
         }
 
-        public static Maybe<T> AsMaybe<T>(this T item) where T : class {
+        public static Maybe<T> AsMaybe<T>(this T item) {
             if (item == null) {
                 return new None<T>();
             }
